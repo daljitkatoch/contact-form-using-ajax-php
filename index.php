@@ -1,12 +1,11 @@
 <html>
-</head>
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css" crossorigin="anonymous">
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="hotel_enquiry fright container">
-	<div class="hotel_enquiry_heading"><h2><script type="text/javascript" language="javascript" src="blink.js"></script><span id="highlight" style="color: rgb(0, 240, 80);">Online Enquiry</span></h2></div>
+	<div class="enquiry_heading"><h2><script type="text/javascript" language="javascript" src="blink.js"></script><span id="highlight" style="color: rgb(0, 240, 80);">Online Enquiry</span></h2></div>
 	<div class="form">		
 		<form name="contactForm" id="frmContact" method="post"
             action="send.php" enctype="multipart/form-data">
